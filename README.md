@@ -12,13 +12,13 @@ To think that language, stack, or framework used to create a website should also
 
 The architecture of view and view model separated by how data is stored and retrieved and how the combination of the two is rendered has always been littered with business rules and data processing before and after long term storage retrieval. There must be a way to separate business rules from the process of combining website components to complete a specific task.
 
-Bolt is the web component delivery, maintenace, and deployment package that provides both a marketplace and an on-property component management interface. Much like hypernova will render a view from a set of data and respond with the code to present to the UI -- Bolt delivers a fully rendered component that is able to plug into a websites existing UI infrastructure. However, what Bolt does differently is that it provides a marketplace of components that allows you to view the source code as well as view and test components which can be added to your website at the click of a button.
+Bolt is a web component delivery, maintenace, and deployment package that provides both a component marketplace and an on-property component management interface. Much like hypernova will render a view from a set of data and respond with the code to present to the UI -- Bolt delivers a fully rendered component that is able to plug into a websites existing UI infrastructure. However, what Bolt does differently is that it provides a marketplace of components that allows you to view the source code as well as view and test components which can be added to your website at the click of a button. Much like google tag manager will deliver code to a website that runs after initial load, Bolt can load code for these web components from external sources after initial load or even hotloaded at another point in time.
 
 # Development History
 
 ## 0.0.0 / 2019-4-1
 
-* init1 - Another writer-from-scrath solution to solve same problem as several identical projects that have come before it in which I have been the sole architect and developer on since 2016:
+* init1 - Another write-from-scratch solution to solve same problem as similar projects that have come before it in which I have been the sole architect and developer:
   * [Quasi](https://github.com/KenEucker/quasi) (January 2017), is the frontend tempalating MVP that includes routing, authentication, and may eventually tie together "bolt" components to provide a seemless integration of web components and dependencies in a single "page" application. Quasi is clientside focused, thus the architecture and server are not fully developed.
   * [Quasar](https://github.com/KenEucker/quasar) (November 2017), is the build runtime MVP that produces singular outputs, from web components to entire websites, leveraging any templating paradigm (React, Sass, Mustache, Pure HTML-JS-CSS, etc... ). Quasar is serverside and render focused, thus the UI is not fully developed.
 
