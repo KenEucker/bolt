@@ -19,8 +19,8 @@ Bolt is a web component delivery, maintenace, and deployment package that provid
 ## 0.0.0 / 2019-4-1
 
 * init1 - Another write-from-scratch solution to solve same problem as similar projects that have come before it in which I have been the sole architect and developer:
-  * [Quasi](https://github.com/KenEucker/quasi) (January 2017), is the frontend tempalating MVP that includes routing, authentication, and may eventually tie together "bolt" components to provide a seemless integration of web components and dependencies in a single "page" application. Quasi is clientside focused, thus the architecture and server are not fully developed.
-  * [Quasar](https://github.com/KenEucker/quasar) (November 2017), is the build runtime MVP that produces singular outputs, from web components to entire websites, leveraging any templating paradigm (React, Sass, Mustache, Pure HTML-JS-CSS, etc... ). Quasar is serverside and render focused, thus the UI is not fully developed.
+  * [Quasi](https://github.com/KenEucker/quasi), (January 2017), is the frontend templating MVP that includes routing, authentication, and may eventually tie together "bolt" components to provide a seemless integration of web components and dependencies in a single "page" application. Quasi is clientside focused, thus the architecture and server are not fully developed.
+  * [Quasar](https://github.com/KenEucker/quasar), (November 2017), is the build runtime MVP that produces singular outputs, from web components to entire websites, leveraging any templating paradigm (React, Sass, Mustache, Pure HTML-JS-CSS, etc... ). Quasar is serverside and render focused, thus the UI is not fully developed.
 
 # Roadmap
 Version 0.1 :: Architecture
